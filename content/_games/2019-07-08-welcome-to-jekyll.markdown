@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: homepage
+title:  "TEST3"
 date:   2019-07-08 20:17:49 -0400
 categories: jekyll update
 ---

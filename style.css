@@ -116,6 +116,11 @@ h3
 	text-transform: lowercase;
 }
 
+footer
+{
+	background-color: #383838;
+}
+
 #intro img
 {
 	width: 50%;
@@ -127,10 +132,6 @@ h3
 	padding-top: 2vh;
 }
 
-#footer
-{
-	height: 2vh;
-}
 
 @keyframes gradientMove { 
     0%{background-size: 100% 6px}
