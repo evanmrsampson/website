@@ -25,9 +25,7 @@ plugins:
 
 collections_dir: content
 collections:
-  software:
-      output: true
-  games:
+  projects:
       output: true
   writing:
       output: true

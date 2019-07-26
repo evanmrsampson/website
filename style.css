@@ -29,7 +29,6 @@ h1{
 }
 
 h2{
-	padding-top: 25%;
     font-size: 4vw;
 	font-family: 'Source Code Pro', monospace;
 	color: #03a9f4;
@@ -86,6 +85,11 @@ header img {
 	border-radius: 5%;
 }
 
+header h2
+{
+	padding-top: 25%;
+}
+
 .header-title{
 	position: absolute;
 	top: 8%;
@@ -113,6 +117,31 @@ footer
 	background-color: #383838;
 }
 
+div.blog-content
+{
+	text-transform: none;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+div.blog-content h2
+{
+	padding-top: unset;
+	line-height: 2em;
+}
+
+div.blog-content p
+{
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+div.blog-content a
+{
+	text-decoration: none;
+	color: #03a9f4;
+}
+
 footer .message
 {
 	display: inline-block;
@@ -124,6 +153,21 @@ footer .message small
 	line-height: 1.5;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+#bar h1
+{
+	width: 100%;
+	text-align: center;
+}
+
+#bar h2
+{
+	font-size: 3vw;
+	width: 100%;
+	text-align: left;
+	padding-top: 10px;
+	margin: auto;
 }
 
 #intro img
