@@ -8,7 +8,7 @@ date:   2019-07-25 -0400
 
 #### **Uh oh, spoilers ahead gang!**
 
-Like everyone else with a Netflix subscription, I fancy myself a fan of Stranger Things. It’s a palatable blend of horror and adventure that’s easy to watch with most anyone. However, as I approached the end of the third season, I felt a suppressed sense of disappointment percolating in the back of my mind. Upon completion, I can be frank, I am disappointed.
+Like everyone else with a Netflix subscription, I fancy myself a fan of Stranger Things. It’s a palatable blend of horror and adventure that’s easy to watch with most anyone. However, as I approached the end of the third season, I felt a suppressed sense of disappointment percolating in the back of my mind. Upon completion I am disappointed.
 
 First and foremost, the third season has reached Ready Player One levels of ’80s fanaticism. Perhaps it’s because I was born in the ’90s, but it didn’t resonate with me as a viewer. Regardless, while I believe nostalgia is all well-and-good, I don’t think it should, or can, constitute the meat of a show. In this case, the third season feels like a vehicle for ’80s references more so than a show set in the ’80s. For instance, consider the discount Arnold Schwarzenegger featured as an enforcer for the Russians. Short of making viewers say, “Wow, he lumbers around very menacingly– just like The Terminator!”, the character has no other defining features. I would love to know just an iota of information about him. His entire characterization is a movie reference, which just feels lazy.
 
