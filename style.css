@@ -131,6 +131,7 @@ div.blog-content h2
 {
 	padding-top: unset;
 	line-height: 2em;
+	color: #fff;
 }
 
 div.blog-content p
@@ -190,6 +191,7 @@ footer .message small
 	text-align: left;
 	padding-top: 10px;
 	margin: auto;
+	color: #03a9f4;
 }
 
 #intro img
