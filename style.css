@@ -18,7 +18,7 @@ a {
 	text-decoration:none;
 }
 
-h1{
+h1 {
 	font-family: 'Permanent Marker', cursive;
     font-size: 6vw;
 	color: #ff80ab;
@@ -28,15 +28,18 @@ h1{
 	animation-direction: alternate;
 }
 
-h2{
+h2 {
     font-size: 4vw;
 	font-family: 'Source Code Pro', monospace;
-	color: #03a9f4;
+	color: #ff80ab;
 	text-transform: lowercase;
 }
 
-.icon {
+header h2 {
+	color: #fff;
+}
 
+.icon {
 	fill: #fff;
 	height: 40px;
 	width: 40px;
@@ -52,7 +55,7 @@ h2{
 
 .link-holder
 {
-	padding: 20px 8% 20px 8%;
+	padding: 5px 8% 5px 8%;
 	display: inline;
 	position: relative;
 	line-height: 80px;
@@ -142,17 +145,36 @@ div.blog-content a
 	color: #03a9f4;
 }
 
+footer
+{
+	display: inline-flex;
+	width: 100%;
+}
 footer .message
 {
-	display: inline-block;
+	display: inline-flex;
+	vertical-align: middle;
 	line-height: 80px;
+	width: 49%;
+}
+
+footer .social
+{
+	width: 49%;
+}
+
+footer .social p
+{
+	margin-bottom: unset;
 }
 
 footer .message small
 {
+	padding-top: 1em;
 	line-height: 1.5;
 	display: inline-block;
 	vertical-align: middle;
+	width: 100%;
 }
 
 #bar h1
