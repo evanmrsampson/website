@@ -13,13 +13,13 @@ layout: homepage
     <h2 class="chromatic">Projects</h2>
         {% for post in site.projects %}
             <a href="{{ post.url }}">
-                <h3> {{ post.title }}</h3>
+                {{ post.title }}
             </a>
         {% endfor %}
     <h2 class="chromatic">Writing</h2>
         {% for post in site.writing %}
             <a href="{{ post.url }}">
-                <h3> {{ post.title }}</h3>
+                {{ post.title }}
             </a>
         {% endfor %}
 </div>
