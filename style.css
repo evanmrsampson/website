@@ -125,11 +125,6 @@ h3
 	text-transform: lowercase;
 }
 
-footer
-{
-	background-color: #383838;
-}
-
 div.blog-content
 {
 	text-transform: none;
@@ -157,34 +152,46 @@ div.blog-content a
 
 footer
 {
-	display: inline-flex;
+	display: flex;
 	width: 100%;
+	background-color: #383838;
+	margin-top: 20px;
 }
+
 footer .message
 {
-	display: inline-flex;
 	vertical-align: middle;
 	line-height: 80px;
-	width: 49%;
 }
 
-footer .social
+footer .links, footer .message
 {
-	width: 49%;
+	width: 50%;
 }
 
-footer .social p
+@media (max-width: 767px) {
+	footer {
+		flex-direction: column;
+	}
+
+	footer .links, footer .message
+	{
+		width: auto;
+	}
+}
+
+footer .links p
 {
 	margin-bottom: unset;
 }
 
 footer .message small
 {
-	padding-top: 1em;
+	padding: 1.5em;
 	line-height: 1.5;
 	display: inline-block;
 	vertical-align: middle;
-	width: 100%;
+	width: auto;
 }
 
 #bar h1
@@ -212,6 +219,15 @@ footer .message small
 #intro
 {
 	padding-top: 2vh;
+
+}
+
+#twitter, #twitter-overlay {
+	left: 35%;
+}
+
+#linkedin, #linkedin-overlay {
+	left: 65%;
 }
 
 
