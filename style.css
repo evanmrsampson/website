@@ -32,7 +32,6 @@ h1 {
 	font-family: 'Permanent Marker', cursive;
     font-size: 6vw;
 	color: #ff80ab;
-    text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
 	animation: chromaticMove 4500ms ease infinite, pulse ease 250ms  infinite;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
@@ -47,6 +46,16 @@ h2 {
 
 header h2 {
 	color: #fff;
+	opacity: 0;
+}
+
+header h1 {
+	opacity: 0;
+	animation: none;
+}
+
+header .titles {
+	opacity: 0;
 }
 
 .icon {
@@ -93,9 +102,19 @@ header {
 
 header img {
 	width: 100%;
-	max-height: 96vh;
+	opacity: 0;
+	border-radius: 5%;
+	max-height: 96vh
+}
+
+header .loading {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
 	opacity: 0.75;
 	border-radius: 5%;
+	background:cornflowerblue;
 }
 
 header h2
@@ -255,5 +274,35 @@ footer .message small
 
     100% {
 		text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),2px -1px 2px rgba(52, 251, 12, 1);
+	}
+}
+
+@keyframes fadeInHeader {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0.75;
+	}
+}
+
+@keyframes fadeOutHeader {
+	0% {
+		opacity: 0.75;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fadeInTitle {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
 	}
 }

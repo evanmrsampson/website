@@ -27,13 +27,17 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Source+Code+Pro|Merriweather&display=swap" rel="stylesheet">
+		<script src="javascript/home.js"></script>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
     <body>
-	    <header>
-			<img src="images/header.jpg">
-			<h1 class="header-title chromatic">Evan M. R. Sampson</h1>
-			<h2 class="header-title chromatic">Software / Games</h2>
+	    <header id="homepage-header">
+			<div class="loading"></div>
+			<img src="images/header.jpg" onload="revealHeader()">
+			<div class="titles">
+					<h1 class="header-title chromatic">Evan M. R. Sampson</h1>
+					<h2 class="header-title chromatic">Software / Games</h2>
+			</div>
 		</header>
 
 		{{ content }}
