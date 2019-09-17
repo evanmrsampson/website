@@ -85,6 +85,9 @@ header .titles {
 }
 
 header {
+	height: 0;
+	padding-bottom: 56.25%;
+	max-height: 96vh;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
 	width: 100%;
@@ -101,10 +104,13 @@ header {
 }
 
 header img {
+	position: absolute;
+	display: block;
 	width: 100%;
 	opacity: 0;
 	border-radius: 5%;
-	max-height: 96vh
+	height: 100%;
+	max-height: 96vh;
 }
 
 header .loading {
@@ -115,6 +121,7 @@ header .loading {
 	opacity: 0.75;
 	border-radius: 5%;
 	background:cornflowerblue;
+	max-height: 96vh;
 }
 
 header h2
@@ -281,6 +288,10 @@ footer .message small
 	0% {
 		opacity: 0;
 	}
+	
+	25% {
+		opacity: 0;
+	}
 
 	100% {
 		opacity: 0.75;
@@ -292,6 +303,10 @@ footer .message small
 		opacity: 0.75;
 	}
 
+	25% {
+		opacity: 0.75;
+	}
+
 	100% {
 		opacity: 0;
 	}
@@ -299,6 +314,10 @@ footer .message small
 
 @keyframes fadeInTitle {
 	0% {
+		opacity: 0;
+	}
+
+	25% {
 		opacity: 0;
 	}
 
