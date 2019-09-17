@@ -1,10 +1,10 @@
 ---
 layout: blog
-title:  "My Thoughts on Stranger Things Season 3"
+title:  "Stranger Things Season 3"
 date:   2019-07-25 -0400
 ---
 
-## My Thoughts On Stranger Things Season 3
+## Stranger Things Season 3
 
 #### **Uh oh, spoilers ahead gang!**
 
