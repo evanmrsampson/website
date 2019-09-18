@@ -1,6 +1,8 @@
 function revealHeader()
 {
     var header = document.getElementsByTagName("header")[0];
+    header.getElementsByClassName("pause")[0].style.display = "none";
+    header.getElementsByClassName("play")[0].style.display = "block";
     var loading = header.getElementsByClassName("loading")[0];
     loading.style.animation = "fadeOutHeader ease-in 3s 1";
     loading.style.opacity = 0;
