@@ -44,6 +44,19 @@ h2 {
 	text-transform: lowercase;
 }
 
+.navigation h2 {
+	color: #03a9f4;
+	text-align: center;
+}
+.navigation a {
+	width: 33%;
+}
+
+.navigation {
+	display: inline-flex;
+	width: 100%;
+}
+
 header h2 {
 	font-size: 4vw;
 	color: #fff;
@@ -220,11 +233,11 @@ footer .links, footer .message
 }
 
 @media (max-width: 767px) {
-	footer {
+	footer, .navigation {
 		flex-direction: column;
 	}
 
-	footer .links, footer .message
+	footer .links, footer .message, .navigation a
 	{
 		width: auto;
 	}
