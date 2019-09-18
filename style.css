@@ -17,10 +17,10 @@ body {
 a {
 	color: #03a9f4;
 	text-decoration: none;
-	font-family: 'Merriweather', serif;
 }
 
-p {
+a, p {
+	line-height: 1.75;
 	font-family: 'Merriweather', serif;
 }
 

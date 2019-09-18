@@ -14,6 +14,7 @@ layout: homepage
             <a href="{{ post.url }}">
                 {{ post.title }}
             </a>
+            <br/>
         {% endfor %}
     <h2 class="chromatic">Writing</h2>
         {% for post in site.writing %}
