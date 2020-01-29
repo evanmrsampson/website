@@ -10,13 +10,13 @@ layout: homepage
     </p>
 </div>
 <div>
-    <h2 class="chromatic">Projects</h2>
+    <h3 class="chromatic">Projects</h3>
         {% for post in site.projects %}
             <a href="{{ post.url }}">
                 {{ post.title }}
             </a>
         {% endfor %}
-    <h2 class="chromatic">Writing</h2>
+    <h3 class="chromatic">Writing</h3>
         {% for post in site.writing %}
             <a href="{{ post.url }}">
                 {{ post.title }}

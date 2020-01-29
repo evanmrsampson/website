@@ -28,23 +28,26 @@ h4 {
 	font-family: 'Merriweather', serif;
 }
 
-h1 {
-	font-family: 'Permanent Marker', cursive;
-    font-size: 48px;
-	color: #ff80ab;
+.titles h1 {
 	animation: chromaticMove 4500ms ease infinite, pulse ease 250ms  infinite;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
 }
 
+h1 {
+	font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+	color: #ff80ab;
+}
+
 h2 {
     font-size: 32px;
-	font-family: 'Source Code Pro', monospace;
-	color: #ff80ab;
+	font-family: 'Merriweather', serif;
+	color: #fff;
 	text-transform: lowercase;
 }
 
-.navigation h2 {
+.navigation a h2{
 	color: #03a9f4;
 	text-align: center;
 }
@@ -182,8 +185,8 @@ header h2
 
 h3
 {
-	font-family: 'Source Code Pro', monospace;
-	color: #03a9f4;
+	font-family: 'Merriweather', serif;
+	color: #ff80ab;
 	font-size: 3.5vh;
 	text-transform: lowercase;
 }
