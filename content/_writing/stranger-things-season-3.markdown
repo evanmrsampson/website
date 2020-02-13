@@ -4,8 +4,6 @@ title:  "Stranger Things Season 3"
 date:   2019-07-25 -0400
 ---
 
-## Stranger Things Season 3
-
 #### **Uh oh, spoilers ahead gang!**
 
 Like everyone else with a Netflix subscription, I fancy myself a fan of Stranger Things. It’s a palatable blend of horror and adventure that’s easy to watch with most anyone. However, as I approached the end of the third season, I felt a suppressed sense of disappointment percolating in the back of my mind. Upon completion I am disappointed.

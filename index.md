@@ -9,17 +9,3 @@ layout: homepage
         Here you'll find a collection of posts about software projects, game projects, and my thoughts on particular pieces of media. 
     </p>
 </div>
-<div>
-    <h3 class="chromatic">Projects</h3>
-        {% for post in site.projects %}
-            <a href="{{ post.url }}">
-                {{ post.title }}
-            </a>
-        {% endfor %}
-    <h3 class="chromatic">Writing</h3>
-        {% for post in site.writing %}
-            <a href="{{ post.url }}">
-                {{ post.title }}
-            </a>
-        {% endfor %}
-</div>
