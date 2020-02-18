@@ -29,7 +29,6 @@ h4 {
 }
 
 .titles h1 {
-	animation: chromaticMove 4500ms ease infinite, pulse ease 250ms  infinite;
 	-webkit-animation-direction: alternate;
 	animation-direction: alternate;
 }
@@ -310,6 +309,17 @@ footer .message small
 .blog-content {
 	padding-bottom: 50px;
 }
+#navigation-links {
+	overflow:hidden;
+}
+
+#navigation-links.fadedOut {
+	display: none;
+}
+
+#navigation-links.fadedIn {
+	display: flex;
+}
 
 @media screen and (max-width: 1024)
 {
@@ -327,19 +337,6 @@ footer .message small
 @keyframes pulse { 
     0%{ transform: skewX(.5deg);}
     75%{ transform:skewX(1deg);}
-}
-@keyframes chromaticMove { 
-    0% {
-		text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),0px 0px -2px rgba(52, 251, 12, 1);
-	}
-
-    50% {
-		text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 2px 3px rgba(52, 251, 12, 1);
-	}
-
-    100% {
-		text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),2px -1px 2px rgba(52, 251, 12, 1);
-	}
 }
 
 @keyframes fadeInHeader {
@@ -381,5 +378,25 @@ footer .message small
 
 	100% {
 		opacity: 1;
+	}
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(0px);
+	}
+
+	100% {
+		transform: translateY(-100px);
 	}
 }
