@@ -3,7 +3,10 @@ layout: blog
 title: Projects
 ---
 {% for post in site.projects %}
-<a href="{{ post.url }}">
-    {{ post.title }}
-</a>
+<div class="card">
+    <a href="{{ post.url }}">
+        <img src="{{ post.card }}">
+        {{ post.title }}
+    </a>
+</div>
 {% endfor %}

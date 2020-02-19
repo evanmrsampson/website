@@ -2,6 +2,7 @@
 layout: blog
 title:  "Video Game Mad Lib"
 date:   2019-09-18 -400
+card: /images/gb.png
 ---
 
 For the last few months I've wanted to do something using the [Giant Bomb API](https://www.giantbomb.com/api/). It allows you to query a wiki for all sorts of user-generated / video game-related data. I entertained a couple ideas in my head, but none of them stuck. At one point I considered making an "autoshipper". The idea was to randomly pair two video game characters and tweet about it. Something along the lines of: "I ship Luigi and Solid Snake". However, when considering the implications that sometimes video game characters are children, I dropped the idea. My ethics professor would be proud.
