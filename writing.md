@@ -2,8 +2,13 @@
 title: Writing
 layout: blog
 ---
-{% for post in site.writing %}
-<a href="{{ post.url }}">
-    {{ post.title }}
-</a>
-{% endfor %}
+<div class="card-holder">
+    {% for post in site.writing %}
+    <a href="{{ post.url }}">
+        <div class="card">
+            <img src="/images/{{ post.card }}">
+            {{ post.title }}
+        </div>
+    </a>
+    {% endfor %}
+</div>

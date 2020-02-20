@@ -222,25 +222,6 @@ div.blog-content a
 	color: #03a9f4;
 }
 
-footer
-{
-	display: flex;
-	width: 100%;
-	background-color: #383838;
-	margin-top: 20px;
-}
-
-footer .message
-{
-	vertical-align: middle;
-	line-height: 80px;
-}
-
-footer .links, footer .message
-{
-	width: 50%;
-}
-
 @media (max-width: 767px) {
 	footer, .navigation {
 		flex-direction: column;
@@ -326,6 +307,29 @@ footer .message small
 	#navigation h4 {
 		font-size: 20vw;
 	}
+}
+
+.card-holder {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.card {
+	background-color: #383838;
+	width: 300px;
+	height: 300px;
+	margin: 0px 10px 20px 10px;
+}
+
+.card img {
+	height: 75%;
+	padding: 5% 5% 5% 5%;
+}
+
+.card:hover {
+	box-shadow: 0px 0px 3px 5px white;
 }
 
 /** DEBUG SECTION**/
