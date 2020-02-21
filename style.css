@@ -224,15 +224,11 @@ div.blog-content a
 }
 
 .card img {
-	height: 55%;
+	height: 60%;
 	padding: 5% 5% 5% 5%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-}
-
-.card .label {
-	padding-top: 5%;
 }
 
 .card:hover {
