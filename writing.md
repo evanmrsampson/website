@@ -7,7 +7,7 @@ layout: blog
     <a href="{{ post.url }}">
         <div class="card">
             <img src="/images/{{ post.card }}">
-            {{ post.title }}
+            <div class="label">{{ post.title }}</div>
         </div>
     </a>
     {% endfor %}

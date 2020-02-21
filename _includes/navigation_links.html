@@ -1,22 +1,7 @@
-<div id="navigation-expand" onclick="ShowHideNavi()">Navigation
-    <div id="navigation-links" class="fadedOut">
-        <div style="width:100%;">
-                <a href='/'><h4 style="display:inline-flex;padding: 0px 10px 0px 10px;">About</h4></a>
-                <a href='/projects'><h4 style="display:inline-flex;padding: 0px 10px 0px 10px;">Projects</h4></a>
-                <a href='/writing'><h4 style="display:inline-flex;padding: 0px 10px 0px 10px;">Writing</h4></a>
-        </div>
-    </div></div>
-
-<script>
-    function ShowHideNavi() {
-        var links = document.getElementById("navigation-links")
-        var isShowing = links.className == 'fadedIn';
-        links.style.animation = ((isShowing ? "slideUp" : "slideDown") + " ease 125ms 1");
-        if (isShowing) {
-            setTimeout(function() { links.className = "fadedOut"; }, 125);
-        }
-        else {
-            links.className = "fadedIn";
-        }
-    }
-</script>
+<div class="navigation-links">
+    <div style="width:100%;">
+            <a href='/'><h4 style="display:inline-flex;padding: 0px 10px 0px 10px;">About</h4></a>
+            <a href='/projects'><h4 style="display:inline-flex;padding: 0px 10px 0px 10px;">Projects</h4></a>
+            <a href='/writing'><h4 style="display:inline-flex;padding: 0px 10px 0px 10px;">Writing</h4></a>
+    </div>
+</div>

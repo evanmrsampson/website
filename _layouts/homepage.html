@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
     <body>
-	    <header id="homepage-header">
+	    <div id="homepage-header">
 			<div class="controls">
 				<svg class="play"
 					width="24pt"
@@ -30,9 +30,14 @@
 				<h1 class="header-title chromatic">Evan M. R. Sampson</h1>
 				<h2 class="header-title chromatic">Software / Games</h2>
 			</div>
-		</header>
-
+		</div>
+		<div id="desktop-links">
 		{% include navigation_links.html %}
+		</div>
+		<div id="mobile-links">
+		{% comment %} replace the above with this using mediaquery {% endcomment %}
+		{% include navigation.html %}
+		</div>
 
 		{{ content }}
 		

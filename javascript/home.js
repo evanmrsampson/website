@@ -1,6 +1,6 @@
 function revealHeader()
 {
-    var header = document.getElementsByTagName("header")[0];
+    var header = document.getElementById("homepage-header");
     header.getElementsByClassName("pause")[0].style.display = "none";
     header.getElementsByClassName("play")[0].style.display = "block";
     var loading = header.getElementsByClassName("loading")[0];
