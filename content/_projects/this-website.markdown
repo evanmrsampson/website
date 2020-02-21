@@ -2,6 +2,7 @@
 layout: blog
 title:  "This Website"
 date:   2019-07-25 -400
+card: net.png
 ---
 
 I have experience doing web development-- HTML, CSS, JS, PHP, Node, all that good stuff. However, my previous web development involved working on existing sites. Sure, I did a little configuration here, a little new content there, but starting from scratch is totally different.

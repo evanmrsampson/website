@@ -2,9 +2,8 @@
 layout: blog
 title:  "Stranger Things Season 3"
 date:   2019-07-25 -0400
+card: post.png
 ---
-
-## Stranger Things Season 3
 
 #### **Uh oh, spoilers ahead gang!**
 
