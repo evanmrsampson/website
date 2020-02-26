@@ -1,7 +1,6 @@
 /* All Pages */
 html, body
 {
-	height: 100%;
 	background: #121212;
 }
 
@@ -10,7 +9,6 @@ body {
 	color:#fff;
 	text-align:center;
 	text-transform:uppercase;
-	background-size: 100% 100px;
 	margin: auto;
 }
 
@@ -180,6 +178,15 @@ h3
 
 .navigation-links h4:hover {
 	text-shadow: 0px 0px 3px white;
+}
+
+#navigation {
+	background-color: #121212;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
 }
 
 /* blog posts */
