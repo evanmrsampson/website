@@ -17,5 +17,5 @@ layout: homepage
     <a href="https://twitter.com/__majorbummer" target="_blank">twitter</a>
     <a href="https://github.com/evanmrsampson" target="_blank">github</a>
     <a href="https://www.linkedin.com/in/evan-m-r-sampson/" target="_blank">linkedin</a>
-    <a href="https://soundcloud.com/evanhasmachines" target="_blank">soundcloud</a>
+    <a href="https://soundcloud.com/rowechurch" target="_blank">soundcloud</a>
 </div>
